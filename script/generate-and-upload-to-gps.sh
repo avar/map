@@ -11,7 +11,6 @@ germany_osm="baden-wuerttemberg/*.img" # bankholzen/*.img"
 
 java -jar ~/src/mkgmap/dist/mkgmap.jar --latin1 --gmapsupp $iceland_maps $iceland_contours $iceland_osm $germany_osm
 
-#sudo mount /dev/sd?1 /mnt/gps/
-#mkdir -p /media/gps/Garmin
-#sudo cp -v gmapsupp.img /media/gps/Garmin/
+mkdir -p /media/GPS/Garmin
+sudo cp -v gmapsupp.img /media/GPS/Garmin/
 #sudo umount /mnt/gps
